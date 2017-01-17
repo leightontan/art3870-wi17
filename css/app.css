@@ -16,4 +16,35 @@ nav{
 footer{
 
 }
-*{outline: 1px solid red;}
+
+body{
+  background-color: lightblue;
+}
+
+
+/*{outline: 1px solid red;}*/
+
+.about{
+  background-color: blue;
+
+}
+.blue{
+  background-image: url("http://placehold.it/1000x600");
+  background-size: cover;
+  padding: 50px 50px;
+  border-style: 1px black solid;
+  }
+  @media screen and  (max-width: 2500px){
+      #container{
+        width:100%;
+  }
+      #left-column{
+        width:100%;
+
+      }
+      #right-column{
+        width:100%;
+      }
+      img{
+        width:100%;
+      }
