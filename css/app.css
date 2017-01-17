@@ -4,11 +4,13 @@
 /* main body styles */
 
 /* footer styles */
-
-h1, h6{ font-family: cursive;
+h1, h6{
+  font-family: 'Lato', sans-serif;
 }
-header h1{
-  color:red; background-color: yellow;}
+
+.photo1{
+  display: block;
+  margin: 0 auto;
 }
 nav{
 
@@ -18,7 +20,7 @@ footer{
 }
 
 body{
-  background-color: lightblue;
+  background:#7abcff;
 }
 
 
@@ -48,3 +50,15 @@ body{
       img{
         width:100%;
       }
+
+  footer{
+     bottom:0;
+     z-index:100000
+  }
+
+  .blue1{
+    padding: 50px 50px;
+  }
+
+  img{height="300"
+width="300"}
