@@ -1,9 +1,17 @@
 /* this is my stylesheet for the home page */
 /* header styles */
+a:hover{
+  background-color: darkblue;
+}
+.active{background-color: lightblue;
 
+      }
 /* main body styles */
 
 /* footer styles */
+
+
+}
 h1, h6{
   font-family: 'Lato', sans-serif;
 }
@@ -12,6 +20,10 @@ h1, h6{
   display: block;
   margin: 0 auto;
 }
+
+
+
+
 nav{
 
 }
@@ -61,4 +73,14 @@ body{
   }
 
   img{height="300"
-width="300"}
+width="300"
+border: 1px solid #999;
+	background-color: #fcfcfc;
+	padding: 4px; }
+
+.blue2{
+  background-color: white;
+  padding: 10px 10px;
+  height: 175px;
+  width: 400px;
+}
