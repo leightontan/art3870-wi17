@@ -1,0 +1,372 @@
+#movingart{
+    width: 120px;
+    height: 120px;
+    animation-name: movingart;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left:50px;
+    top:60px;
+    border-radius: 50px;
+    font-size: 36px;
+}
+
+@keyframes movingart{
+from{left:130px;}
+to {left:235px;}
+
+}
+
+#popupx{
+  animation-name: popupx;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  left:310px;
+  bottom:320px;
+  right: 150px;
+  color: white;
+
+
+}
+
+@keyframes popupx{
+  from {font-size: 100%;}
+  50% {font-size: 60px; color:red}
+  100% {font-size: 60px; color:red}
+}
+
+#dollarsign{
+font-size:36px;
+color:green;
+position: absolute;
+left:380px;
+bottom:350px;
+}
+
+.museumsizing{
+  height:150px;
+  width:150px;
+  position: absolute;
+  left:455px;
+  bottom:350px;
+}
+
+#questionmark{
+  font-size:36px;
+  color:lightblue;
+  position: absolute;
+  left:630px;
+  bottom:425px;
+  animation-name: questionmark;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+@keyframes questionmark {
+  from {color:white;}
+  to {color:darkblue;}
+}
+.dot1,.dot2,.dot3,.dot4,.dot5{
+  background-color: black;
+  height:15px;
+  width:15px;
+  border-radius: 50px;
+}
+
+.dot1{
+  position: relative;
+  top:45px;
+  opacity: 0;
+  animation: dot1 1s infinite;
+  animation-delay: 1s;
+}
+.dot2{
+  position: relative;
+  top:30px;
+  left:47px;
+  opacity: 0;
+  animation: dot2 1s infinite;
+  animation-delay: 2s;
+}
+.dot3{
+  position: relative;
+  top:15px;
+  left:70px;
+  opacity: 0;
+  animation: dot3 1s infinite;
+  animation-delay: 3s;
+}
+.dot4{
+  position: relative;
+  left:25px;
+  opacity: 0;
+  animation: dot4 1s infinite;
+  animation-delay: 4s;
+}
+.dot5{
+  position: relative;
+  bottom:15px;
+  left:90px;
+  opacity: 0;
+  animation: dot5 1s infinite;
+  animation-delay: 5s;
+}
+
+@keyframes dot1 {
+0% {opacity:1;}
+100% {opacity: 0;}
+}
+@keyframes dot2 {
+100% {opacity:1;}
+}
+@keyframes dot3 {
+100% {opacity:1;}
+}
+@keyframes dot4 {
+100% {opacity:1;}
+}
+@keyframes dot5 {
+100% {opacity:1;}
+}
+
+
+/* Second Animation */
+.dishsizing{
+  height:300px;
+  width:300px;
+  position: relative;
+  bottom:100px;
+}
+#arttext{
+  position: relative;
+  left:180px;
+  top:40px;
+  animation-name: arttext;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  z-index: 1;
+}
+
+@keyframes arttext {
+0% {bottom:50px;}
+25% {top:30px; }
+50% {left:200px;}
+100%{left:700px;}
+
+}
+.spoonsizing{
+  height:300px;
+  width:300px;
+  position: relative;
+  bottom:450px;
+  left:140px;
+  animation-name: spoonsizing;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: 20;
+
+}
+@keyframes spoonsizing {
+  100% {left:200px;}
+
+
+}
+.frame{
+  height:350px;
+  width:900px;
+
+
+
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+.dollarsign1{
+  position: relative;
+  left:145px;
+  top:130px;
+  color:green;
+animation: dollarsign1 2s 3;
+animation-delay: 1s;
+}
+.dollarsign2{
+  position: relative;
+  left:160px;
+  top:95px;
+  color:green;
+  animation: dollarsign2 2s infinite;
+  animation-delay: 2s;
+}
+.dollarsign3{
+  position: relative;
+  left:176px;
+  top:59px;
+  color:green;
+  animation: dollarsign3 2s 3;
+  animation-delay: 1s;
+}
+
+@keyframes dollarsign1{
+  from {color:red;}
+  to {opacity: 0;}
+}
+@keyframes dollarsign2{
+  0% {top:80px; }
+  50% {left:200px;}
+  100%{left:700px;}
+}
+@keyframes dollarsign3{
+  from {color:red;}
+  to {opacity:0;}
+}
+
+#arttext2{
+    animation: arttext2 2.5s 1;
+animation-fill-mode: forwards;
+animation-timing-function: ease;
+    position: relative;
+top:100px;
+font-size: 24px;
+
+
+}
+
+@keyframes arttext2{
+  0% {left:0px;}
+  25% {color: black; left:300px;}
+  50% {color:black; left:475px;}
+  75% {color:black; left: 700px; color:white; }
+  100% {color:white;}
+
+}
+#arttext3{
+animation: arttext3 2.5s 1;
+animation-timing-function: ease;
+animation-fill-mode: forwards;
+animation-duration: 2.5s;
+animation-delay: 2.5s;
+position: relative;
+left:800px;
+bottom: -60px;
+color:black;
+opacity: 0;
+font-size: 24px;
+}
+
+@keyframes arttext3 {
+100% {opacity: 1;}
+}
+
+/* Third Animation */
+#hallelujah{
+  font-size: 20px;
+  position: relative;
+  left: 850px;
+  opacity: 0;
+  animation: hallelujah 3s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 3.3s;
+  animation-timing-function: ease-out;
+
+}
+
+@keyframes hallelujah {
+  0% {opacity: 1;}
+  50% {bottom:0px; font-size: 10px;}
+  75% {bottom:150px; font-size: 30px;}
+  100% {opacity: 0.7;}
+}
+#Pain{
+  font-size: 36px;
+  position: relative;
+  left:285px;
+  animation: Pain 2s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+#warword{
+  font-size: 36px;
+  position: relative;
+  left:600px;
+  bottom:155px;
+  animation: warword 2s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+#Sleepers{
+  font-size: 36px;
+  position: relative;
+  left:425px;
+  bottom: 80px;
+  animation: warword 2s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes Pain {
+  0% {transform: rotateY(360deg);}
+  to {opacity: 0;}
+}
+
+@keyframes warword {
+  0% {transform: rotateY(360deg);}
+  to {opacity: 0;}
+}
+
+@keyframes Sleepers {
+  0% {transform: rotateY(360deg);}
+  to {opacity: 0;}
+}
+
+#Happiness{
+  position: relative;
+  font-size: 36px;
+  bottom:235px;
+  left:245px;
+  animation:Happiness 1s 1;
+  opacity: 0;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+#Awaken{
+  position: relative;
+  font-size: 36px;
+  bottom:310px;
+  left:465px;
+  animation: Awaken 1s 1;
+  opacity: 0;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+
+}
+#Peace{
+  position: relative;
+  font-size: 36px;
+  bottom:390px;
+  left:670px;
+  animation:Peace 1s 1;
+  opacity: 0;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes Happiness {
+  100%{opacity:1}
+
+}
+@keyframes Awaken {
+  100%{opacity:1}
+
+}
+@keyframes Peace {
+  100%{opacity:1}
+
+}
