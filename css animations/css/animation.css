@@ -7,7 +7,7 @@
     animation-iteration-count: infinite;
     position: absolute;
     left:50px;
-    top:60px;
+    top:70px;
     border-radius: 50px;
     font-size: 36px;
 }
@@ -26,7 +26,7 @@ to {left:235px;}
   left:310px;
   bottom:320px;
   right: 150px;
-  color: white;
+  color: #7abcff;;
 
 
 }
@@ -64,8 +64,23 @@ bottom:350px;
   animation-duration: 2s;
 }
 
+#questionmark2{
+  font-size:36px;
+  color:lightblue;
+  position: absolute;
+  left:630px;
+  bottom:425px;
+  animation-name: questionmark;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
 @keyframes questionmark {
-  from {color:white;}
+  from {color:#7abcff;}
+  to {color:darkblue;}
+}
+
+@keyframes questionmark {
+  from {color:#7abcff;}
   to {color:darkblue;}
 }
 .dot1,.dot2,.dot3,.dot4,.dot5{
@@ -73,6 +88,7 @@ bottom:350px;
   height:15px;
   width:15px;
   border-radius: 50px;
+
 }
 
 .dot1{
@@ -114,6 +130,14 @@ bottom:350px;
   animation-delay: 5s;
 }
 
+.frame{
+  position: absolute;
+
+}
+.size{
+  position: absolute;
+  top:225px;
+}
 @keyframes dot1 {
 0% {opacity:1;}
 100% {opacity: 0;}
@@ -131,6 +155,55 @@ bottom:350px;
 100% {opacity:1;}
 }
 
+.links{
+  position: relative;
+  top:175px;
+}
+
+
+@media only screen and (min-width: 90.063em){
+#popupx{
+  bottom:1060px;
+}
+
+#dollarsign{
+  bottom:1090px;
+  }
+
+.museumsizing{
+  bottom:1090px;
+}
+#questionmark{
+  bottom:1150px;
+  right:-50px;
+}
+.dot1{
+  top:60px;
+}
+.dot2{
+ top:45px;
+}
+.dot3{
+top:30px;
+}
+.dot4{
+  top:15px;
+}
+.dot5{
+ bottom:-0px;
+}
+}
+#movingart{
+  bottom: 35px;
+}
+#questionmark2{
+  bottom:1150px;
+  left:390px;
+}
+.links{
+  position: relative;
+  top:175px;
+}
 
 /* Second Animation */
 .dishsizing{
@@ -184,6 +257,7 @@ bottom:350px;
 
 body{
   overflow-x: hidden;
+  background-color: #7abcff;
 }
 
 
@@ -242,8 +316,8 @@ font-size: 24px;
   0% {left:0px;}
   25% {color: black; left:300px;}
   50% {color:black; left:475px;}
-  75% {color:black; left: 700px; color:white; }
-  100% {color:white;}
+  75% {color:black; left: 700px; color:#7abcff; }
+  100% {color:#7abcff;}
 
 }
 #arttext3{
@@ -264,6 +338,32 @@ font-size: 24px;
 100% {opacity: 1;}
 }
 
+.earth{
+  height:200px;
+  width:300px;
+  position: absolute;
+  left: 575px;
+  bottom:210px;
+}
+
+.stickfigures{
+  height:100px;
+  width:100px;
+  position: absolute;
+left:465px;
+bottom:210px;
+}
+
+@media only screen and (min-width: 90.063em){
+.earth{
+  bottom:975px;
+}
+.stickfigures{
+  bottom:975px;
+
+}
+  }
+
 /* Third Animation */
 #hallelujah{
   font-size: 20px;
@@ -274,6 +374,7 @@ font-size: 24px;
   animation-fill-mode: forwards;
   animation-delay: 3.3s;
   animation-timing-function: ease-out;
+
 
 }
 
