@@ -144,10 +144,7 @@
 		opacity: 1;
 	}
 }
-.links1{
-	position: relative;
-	top:400px;
-}
+
 @media only screen and (min-width: 90.063em) {
 .museumsizing{
 	bottom:1000px;
@@ -160,8 +157,12 @@
 }
 #dollarsign{
 	bottom:1000px;
-
 }
+.links{
+position: relative;
+bottom: 370px;
+}
+
 }
 
 /* Second Animation */
@@ -277,7 +278,7 @@ body {
 	left: 465px;
 	bottom: 210px;
 }
-}
+
 @media only screen and (min-width: 90.063em) {
 	.dishsizing{
 		bottom:825px;
@@ -486,5 +487,3 @@ body {
 			100% {
 				opacity: 0.7;
 			}
-		}
-}
