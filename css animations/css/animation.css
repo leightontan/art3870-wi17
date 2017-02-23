@@ -22,7 +22,7 @@
 	left: 404px;
 	top: 110px;
 	right: 150px;
-	color: white;
+	color: #7abcff;
 }
 @keyframes popupx {
 	from {
@@ -277,9 +277,6 @@ body {
 	left: 465px;
 	bottom: 210px;
 }
-.links{
-	position:relative;
-	top:100px;
 }
 @media only screen and (min-width: 90.063em) {
 	.dishsizing{
