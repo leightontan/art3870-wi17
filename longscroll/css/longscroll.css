@@ -1,0 +1,388 @@
+body{
+  height:10000px;
+  margin: 0;
+padding: 0;
+overflow-x: hidden;
+overflow-y: auto;
+
+
+
+
+
+}
+body{
+  background-image: url("../images/star.png");
+  z-index: 10;
+
+
+
+
+}
+#bluebg{
+
+  height:5500px;
+  width:300%;
+  background: #54b0dd;
+  margin-top: -4500px;
+  z-index: 20;
+  position: absolute;
+
+}
+#grey{
+  height:300px;
+  width:300%;
+  background:darkgrey;
+    z-index: 20;
+    position: absolute;
+    margin-top:1000px;
+}
+.box{
+  height:300px;
+  width:300px;
+  animation: box 0.7s 1;
+  position: absolute;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+  left:-500px;
+  top:1575px;
+  z-index: 50;
+}
+@keyframes box{
+  100%{left:500px;}
+}
+.boxtext{
+  font-size:50px;
+  color:white;
+}
+.box1{
+  height:500px;
+  width:500px;
+  animation: box1 0.7s 1;
+  position: absolute;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+  left:-500px;
+  top:3575px;
+  z-index: 50;
+}
+@keyframes box1{
+  100%{left:500px;}
+}
+.box2{
+  height:500px;
+  width:500px;
+  animation: box2 0.7s 1;
+  position: absolute;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+  left:-500px;
+  top:5850px;
+  z-index: 50;
+}
+@keyframes box2{
+  100%{left:500px;}
+}
+.box3{
+  height:500px;
+  width:500px;
+  animation: box3 0.7s 1;
+  position: absolute;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+  left:-500px;
+  top:7550px;
+  z-index: 50;
+}
+@keyframes box3{
+  100%{left:500px;}
+}
+.box4{
+  height:500px;
+  width:500px;
+  animation: box4 0.7s 1;
+  position: absolute;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+  left:-500px;
+  top:9250px;
+  z-index: 50;
+}
+@keyframes box4{
+  100%{left:500px;}
+}
+/*.person{
+  position: absolute;
+  height:400px;
+  width:400px;
+  left: 50%;
+  margin-left: -250px;
+  top:9800px;
+  z-index: 50;
+  padding:0;
+  animation-name: person;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+animation-fill-mode: forwards;
+animation-play-state: paused;
+animation-delay: 0.7s;
+}*/
+.person{
+  position: absolute;
+  height:400px;
+  width:400px;
+  left: 50%;
+  margin-left: -250px;
+  top:9710px;
+  z-index: 50;
+  padding:0;
+  animation-name: person;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+animation-fill-mode: forwards;
+animation-play-state: paused;
+animation-delay: 0.7s;
+}
+
+@keyframes person {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -600px, 0);
+    transform: translate3d(0, -600px, 0);
+  }
+}
+/*@keyframes person {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -400px, 0);
+    transform: translate3d(0, -400px, 0);
+  }
+}*/
+
+#spaceship{
+  position: absolute;
+  height:200px;
+  width:500px;
+  top:50px;
+  left: 50%;
+  margin-left: -250px;
+  color: white;
+  z-index:50;
+
+}
+
+#asteroid{
+ position:fixed;
+ /*bottom: 500px;
+ left:-500px;*/
+height: 800px;
+width:800px;
+bottom:659px;
+ left: -800px;
+ color: black;
+ z-index: 15;
+}
+/*#asteroid{
+ position:fixed;
+ /*bottom: 500px;
+ left:-500px;*/
+/*height: 800px;
+width:800px;
+bottom:417px;
+ left: -800px;
+ color: black;
+ z-index: 15;
+}Mac in class*/
+.bird{
+ position:absolute;
+ /*bottom: 500px;
+ left:-500px;*/
+height: 200px;
+width:200px;
+left:-5100px;
+top:6100px;
+ z-index: 70;
+
+}
+.light{
+  position: absolute;
+  height:1400px;
+  width:800px;
+  left: 50%;
+  margin-left: -400px;
+  top:8900px;
+  z-index: 30;
+  padding: 0;
+  opacity: 0;
+  animation-name:light;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-play-state: paused;
+}
+/*.light{
+  position: absolute;
+  height:1000px;
+  width:800px;
+  left: 50%;
+  margin-left: -400px;
+  top:9300px;
+  z-index: 30;
+  padding: 0;
+  opacity: 0;
+  animation-name:light;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-play-state: paused;
+}Mac in class*/
+@keyframes light {
+100%{opacity:1}
+
+}
+#house{
+  position: absolute;
+  height:400px;
+  width:400px;
+  left: 50%;
+  margin-left: -200px;
+  top:9600px;
+  z-index: 30;
+  padding: 0;
+
+}
+#house1{
+  position: absolute;
+  height:400px;
+  width:400px;
+  left: 50%;
+  margin-left: -650px;
+  top:9600px;
+  z-index: 30;
+  padding: 0;
+
+}
+#house2{
+  position: absolute;
+  height:400px;
+  width:400px;
+  left: 50%;
+  margin-left: 250px;
+  top:9600px;
+  z-index: 30;
+  padding: 0;
+}
+#house3{
+  position: absolute;
+  height:400px;
+  width:400px;
+  left: 50%;
+  margin-left: 700px;
+  top:9600px;
+  z-index: 30;
+  padding: 0;
+}
+#house4{
+  position: absolute;
+  height:400px;
+  width:400px;
+  left: 50%;
+  margin-left: -1100px;
+  top:9600px;
+  z-index: 30;
+  padding: 0;
+}
+#wrapper{
+  width:800px;
+  margin:0 auto;
+height:9000px;
+position:relative;
+
+
+
+}
+
+#move{
+  position: fixed;
+  top:100px;
+  left:-500px;
+
+}
+
+#portal{
+  position:absolute;
+  height:600px;
+  width:800px;
+  left: 50%;
+  margin-left: -350px;
+  top:3650px;
+  z-index:30;
+
+}
+
+#portal2{
+  position:absolute;
+  height:600px;
+  width:800px;
+  left: 50%;
+  margin-left: -350px;
+  top:4550px;
+  z-index: 30;
+
+}
+.cloud{
+  height:400px;
+  width:400px;
+  position: absolute;
+  z-index: 30;
+  left: 300px;
+  top:5200px;
+
+}
+.cloud1{
+  height:200px;
+  width:200px;
+  position: absolute;
+  z-index: 30;
+  left:1500px;
+  top:5200px;
+}
+.cloud2{
+  height:300px;
+  width:300px;
+  position: absolute;
+  z-index: 30;
+  left:700px;
+  top:5200px;
+}
+.cloud3{
+  height:250px;
+  width:250px;
+  position: absolute;
+  z-index: 30;
+  left:1800px;
+  top:5200px;
+}
+
+/*
+@media only screen and (min-width: 40.063em) {
+#spaceship{
+  height:250px;
+  width:250px;
+  }
+#portal{
+
+  height:200px;
+  width:200px;
+}
+#asteroid{
+  top:150px;
+  height:125px;
+  width:125px;
+}
+}*/
