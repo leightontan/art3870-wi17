@@ -110,6 +110,20 @@ body{
 @keyframes box4{
   100%{left:500px;}
 }
+.box5{
+  height:700px;
+  width:700px;
+  animation: box5 0.7s 1;
+  position: absolute;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+  left:-500px;
+  top:8750px;
+  z-index: 50;
+}
+@keyframes box5{
+  100%{left:2400px;}
+}
 /*.person{
   position: absolute;
   height:400px;
@@ -184,7 +198,7 @@ animation-delay: 0.7s;
  left:-500px;*/
 height: 800px;
 width:800px;
-bottom:682px;
+bottom:659px;
  left: -800px;
  color: black;
  z-index: 15;
